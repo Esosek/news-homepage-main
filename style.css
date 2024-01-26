@@ -1,0 +1,35 @@
+:root {
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+
+  --clr-primary-400: hsl(5, 85%, 63%);
+  --clr-secondary-400: hsl(35, 77%, 62%);
+
+  --clr-neutral-100: hsl(36, 100%, 99%);
+  --clr-neutral-200: hsl(233, 8%, 79%);
+  --clr-neutral-400: hsl(236, 13%, 42%);
+  --clr-neutral-900: hsl(240, 100%, 5%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-family: "Inter", sans-serif;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
